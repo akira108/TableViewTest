@@ -1,5 +1,5 @@
 //
-//  AIViewController.h
+//  AIAutoUpdateTableViewController.h
 //  TableViewTest
 //
 //  Created by Iwaya Akira on 2013/04/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AIViewController : UIViewController
+@interface AIAutoUpdateTableViewController : UITableViewController
 
 @end

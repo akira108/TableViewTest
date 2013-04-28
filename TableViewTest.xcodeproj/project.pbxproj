@@ -18,7 +18,7 @@
 		E9D29745172D387C00751217 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D29744172D387C00751217 /* Default-568h@2x.png */; };
 		E9D29748172D387C00751217 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D29746172D387C00751217 /* MainStoryboard_iPhone.storyboard */; };
 		E9D2974B172D387C00751217 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D29749172D387C00751217 /* MainStoryboard_iPad.storyboard */; };
-		E9D2974E172D387C00751217 /* AIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2974D172D387C00751217 /* AIViewController.m */; };
+		E9D5DC5E172D393F00A31078 /* AIAutoUpdateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D5DC5D172D393F00A31078 /* AIAutoUpdateTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 		E9D29744172D387C00751217 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E9D29747172D387C00751217 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		E9D2974A172D387C00751217 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		E9D2974C172D387C00751217 /* AIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIViewController.h; sourceTree = "<group>"; };
-		E9D2974D172D387C00751217 /* AIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIViewController.m; sourceTree = "<group>"; };
+		E9D5DC5C172D393F00A31078 /* AIAutoUpdateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIAutoUpdateTableViewController.h; path = ../AIAutoUpdateTableViewController.h; sourceTree = "<group>"; };
+		E9D5DC5D172D393F00A31078 /* AIAutoUpdateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIAutoUpdateTableViewController.m; path = ../AIAutoUpdateTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +85,12 @@
 		E9D29734172D387C00751217 /* TableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				E9D5DC5C172D393F00A31078 /* AIAutoUpdateTableViewController.h */,
+				E9D5DC5D172D393F00A31078 /* AIAutoUpdateTableViewController.m */,
 				E9D2973D172D387C00751217 /* AIAppDelegate.h */,
 				E9D2973E172D387C00751217 /* AIAppDelegate.m */,
 				E9D29746172D387C00751217 /* MainStoryboard_iPhone.storyboard */,
 				E9D29749172D387C00751217 /* MainStoryboard_iPad.storyboard */,
-				E9D2974C172D387C00751217 /* AIViewController.h */,
-				E9D2974D172D387C00751217 /* AIViewController.m */,
 				E9D29735172D387C00751217 /* Supporting Files */,
 			);
 			path = TableViewTest;
@@ -180,7 +180,7 @@
 			files = (
 				E9D2973B172D387C00751217 /* main.m in Sources */,
 				E9D2973F172D387C00751217 /* AIAppDelegate.m in Sources */,
-				E9D2974E172D387C00751217 /* AIViewController.m in Sources */,
+				E9D5DC5E172D393F00A31078 /* AIAutoUpdateTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				E9D29753172D387C00751217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
